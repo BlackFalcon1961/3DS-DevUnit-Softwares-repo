@@ -1,0 +1,62 @@
+﻿// File for Config 11.4 (and much older versions)'s "CTR Info Setting" feature
+// Save to SD root as ctrsetting.txt
+
+isOkApplnstall:1;           //SpotPass software/homescreen ads push [0-1]
+
+
+// Console owner's profile
+userName:Yaoista; // User Name                    [up to 10 16bit characters]
+ngNameFlg:0;      // User Name contains Profanity [0/1]
+birthMonth:1;     // Birth Month
+birthDay:23;      // Birth Day
+userColor:5;      // DSi profile Color            [0-15]
+comment:Hello;    // DSi profile Comment          [up to 10(?!?) 16bit characters]
+
+// RTC
+year:2010;   // [1900-2189??]
+month:9;
+day:27;
+hour:12;
+minute:24;
+second:56;
+
+// Country
+countryCode:1; // You can see them in Config itself, Wii AnyRegionChanger, etc
+               // Don't select a country not in your OS's region
+
+// Language
+languageCode:0;
+
+// Sound
+soundMode:1;      // [0:MONO, 1:STEREO, 2:SURROUND]
+
+// LCD Settings (2 fields)
+ablEnable:1;       // Power Saving Mode [0/1]
+luminanceLevel:3;  // [1-5]
+
+
+// Agreed EULA Version
+agreeMinorVer:255;
+agreeMajorVer:255;
+// Latest EULA Version Saved on System
+latestMinorVer:255;
+latestMajorVer:255;
+
+
+// Parental Controls [0/1 for all of this block]
+parentalIsSet:1;            //enabled
+parentalBrowser:1;          //browser disabled
+parentalUlcd:1;             //3d password protected
+parentalPhotoExchange:1;    //communication disabled/restricted
+parentalP2PInternet:1;      //multiplayer disabled/restricted
+parentalP2PCec:1;           //streetpass disabled
+parentalAddFriend:1;        //friend registration blocked
+parentalDsDownload:1;       //DS/i Download Mode disabled
+parentalShopPoint:1;        //eShop purchase password protected
+
+RatingOgnCode:0;            // Ratings Agencies   (0:CERO, 1:ESRB, 2:BBFC, 3:USK, 4:PEGI general, 5:PEGI Finland, 6:PEGI Portugal, 7:PEGI and BBFC Great Britain, 8:COB, 9:GRB)
+ratingAge:0;                // Maximum age allowed [0-30]
+secretQuestionID:1;         // Preset Secret Question [0-31]
+secretAnswer:Butane;        // [6-64 characters]
+parentalPassword:6969;      // [4 digits]
+

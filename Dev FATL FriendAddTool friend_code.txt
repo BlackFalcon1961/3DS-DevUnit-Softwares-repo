@@ -1,0 +1,8 @@
+﻿// File for FriendAddTool's bulk friend code input feature
+// Save to SD root as friend_code.txt
+// All of these people will be registered as friends (if they also add you of course)
+// One FC per line, group digits with nothing, "-" or " "
+// Whole file max 5120 bytes
+696969696969
+6969 6969 6969
+6969-6969-6969
